@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/prepare_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n        選擇固定海灘，長期淨灘與監測垃圾數據。以安全、熟悉、便利為選擇地點時優先的考量因素。\n        除了確認退潮時間外，更需確認當時的天候狀況，嚴禁颱風來襲時期進行淨灘，日照太強或風勢較大時也應避免前往，並依個人身體狀況來進行淨灘。\n        建議時間：白天（09:00－11:00）；下午（14:00－17:00），並參照當日漲退潮狀況為妥善處理淨灘撿拾的垃圾，淨灘前先聯繫當地環保局，確認適當的垃圾放置地點。"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/equip_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/checkbox_off_background"
+        android:text="@string/equip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

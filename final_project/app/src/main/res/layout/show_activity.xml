@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/activity_title"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/activity_title"
+        android:textSize="24sp" />
+
+    <ListView
+        android:padding="10dip"
+        android:dividerHeight="2dip"
+        android:id="@+id/Show_Activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

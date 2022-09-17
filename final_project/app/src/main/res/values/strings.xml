@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">淨灘Protocol</string>
+    <string name="title_home">海灘地圖</string>
+    <string name="title_dashboard">淨灘資訊</string>
+    <string name="title_notifications">活動管理</string>
+    <string name="title_sponsor">我發起的活動</string>
+    <string name="title_join">我參加的活動</string>
+    <string name="title_follow">我關注的活動</string>
+    <string name="title_prepare">事前準備</string>
+    <string name="all_activity">所有活動</string>
+    <string name="Taipei">Taipei</string>
+    <string name="Taipei_ch">台北</string>
+    <string name="Taoyuan">桃園</string>
+    <string name="Taichung">台中</string>
+    <string name="Kaohsiung">高雄</string>
+    <string name="activity_title">活動專區</string>
+    <string name="activity_content_title">活動內容</string>
+    <string name="activity_content"></string>
+    <string name="create_activity">建立活動</string>
+    <string name="logout">登出</string>
+    <string name="morinfo">淨灘須知</string>
+    <string name="equip">服裝配備</string>
+
+</resources>

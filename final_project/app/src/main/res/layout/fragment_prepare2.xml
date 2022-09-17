@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/prepare_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="◎服裝：\n    ￭遮陽帽\n    ￭領巾\n    ￭短袖T恤＋抗UV袖套\n    ￭麻布手套\n    ￭長褲\n    ￭硬底鞋\n    ￭雙肩背包\n    ￭雨衣\n\n◎工具：\n    ￭ICC表格＋夾板＋筆\n    ￭鐵夾\n    ￭麻袋\n    ￭環保水壺"
+        android:textSize="24sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

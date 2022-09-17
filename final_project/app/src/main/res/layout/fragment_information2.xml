@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/information_notice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="◎淨灘須知：\n    ￭隨時注意潮水變化\n    ￭避免踩踏海濱動植物。漂流木、動物遺骸、海草等天然物不需撿拾\n    ￭清除所有人為垃圾，但只需記錄ICC表格上有的廢棄物種類數量\n    ￭垃圾裝袋分類「可回收垃圾」及「一般垃圾」，方便事後處理\n    ￭自行打包廢棄物帶離海邊，或事前聯繫當地清潔隊協助清運"
+        android:textSize="24sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

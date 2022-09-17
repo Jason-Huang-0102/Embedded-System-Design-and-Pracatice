@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_sponsor"
+        android:title="@string/title_sponsor" />
+
+    <item
+        android:id="@+id/navigation_attend"
+        android:title="@string/title_join" />
+
+    <item
+        android:id="@+id/navigation_follow"
+        android:title="@string/title_follow" />
+
+
+
+
+</menu>

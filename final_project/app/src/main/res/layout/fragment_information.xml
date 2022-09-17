@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/information_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n        任何一次淨灘的本意應該都是「移除大量推積的人造垃圾、讓海岸恢復原本的樣貌」，因此應選擇在汙染最嚴重的海岸舉辦。\n        台灣本島海岸人造廢棄物的汙染程度依序是：特定離島＞河川出海口兩側＞無人居住處＞人口密集處＞熱門觀光景點。\n        暴雨、大浪、洋流與季風也會帶來更多的海漂垃圾，一場颱風會把陸地積怨已深的廢棄物全部沖向海洋，因此颱風過後是舉辦淨灘的好時機。"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/moreinfo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/checkbox_off_background"
+        android:text="@string/morinfo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="655dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
